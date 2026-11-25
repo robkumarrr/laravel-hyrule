@@ -12,7 +12,7 @@ trait ValidatesTopLevelRules
      * @param string $attribute
      * @return mixed
      */
-    protected function getValue($attribute)
+    public function getValue($attribute): mixed
     {
         assert($this instanceof Validator);
         if ($attribute === '') {

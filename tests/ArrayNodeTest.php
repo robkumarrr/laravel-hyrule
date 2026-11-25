@@ -88,7 +88,6 @@ class ArrayNodeTest extends NodeTestAbstract
                 UploadedFile::fake()->image('foo.jpg'),
                 UploadedFile::fake()->image('foo.png'),
                 UploadedFile::fake()->image('foo.gif'),
-                UploadedFile::fake()->image('foo.svg'),
                 UploadedFile::fake()->image('foo.bmp'),
             ],
             static function(ArrayNode $node) {
